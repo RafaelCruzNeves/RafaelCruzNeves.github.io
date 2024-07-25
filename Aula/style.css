@@ -1,0 +1,41 @@
+
+* {
+    margin:0;
+    padding: 0; 
+}
+
+div {
+width: 20vw;
+height: 20vh;
+position:absolute;
+transition: 3s;
+}
+
+.a{ background-color: aqua;
+    right: 40vw;
+    top: 20vh;
+}
+.b{ background-color: rgb(0, 255, 34);
+    right: 40vw;
+    bottom: 20vh;
+}
+
+.c{ background-color: rgb(255, 0, 0);
+ left:40vw;
+margin-top:40vh;
+z-index: 1;}
+
+.d{ background-color: rgb(78, 8, 31);
+right: 30vw;
+bottom: 40vh;}
+
+.e{ background-color: rgb(111, 0, 255);
+    left: 30vw;
+    bottom: 40vh;}
+
+.c:hover{
+    transition: 3s linear;
+    background-color: transparent;
+}
+
+
